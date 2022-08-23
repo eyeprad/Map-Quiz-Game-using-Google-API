@@ -5,7 +5,7 @@ var jacaranda;
 var chaparral;
 var sierraquad;
 var campusstore;
-var reccenter;
+var soraya;
 
 // keep track of which question the user is currently at
 var numclicks = 1;
