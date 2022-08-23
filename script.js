@@ -197,8 +197,8 @@ function drawRectangle(latLng, map) {
         case 5:
             // LatLngBounds(sw, ne)
             var soraBounds = new google.maps.LatLngBounds(
-                new google.maps.LatLng(34.239300, -118.525200),
-                new google.maps.LatLng(34.240680, -118.524650)
+                new google.maps.LatLng(34.23681, -118.52751),
+                new google.maps.LatLng(34.23579, -118.52755)
             );
             // create rectangle
             soraya= new google.maps.Rectangle({
