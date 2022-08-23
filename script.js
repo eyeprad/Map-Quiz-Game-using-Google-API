@@ -162,8 +162,8 @@ function drawRectangle(latLng, map) {
         case 4:
             // LatLngBounds(sw, ne)
             var storeBounds = new google.maps.LatLngBounds(
-                new google.maps.LatLng(34.23661, -118.52898),
-                new google.maps.LatLng(34.23580, -118.52766)
+                new google.maps.LatLng(34.23783, -118.52750),
+                new google.maps.LatLng(34.23680, -118.52749)
             );
             // create rectangle
             campusstore = new google.maps.Rectangle({
@@ -197,8 +197,8 @@ function drawRectangle(latLng, map) {
         case 5:
             // LatLngBounds(sw, ne)
             var soraBounds = new google.maps.LatLngBounds(
-                new google.maps.LatLng(34.23681, -118.52751),
-                new google.maps.LatLng(34.23579, -118.52755)
+                new google.maps.LatLng(34.23661,-118.52898),
+                new google.maps.LatLng(34.23580,-118.52766)
             );
             // create rectangle
             soraya= new google.maps.Rectangle({
