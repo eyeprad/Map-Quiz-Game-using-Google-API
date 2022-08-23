@@ -196,21 +196,21 @@ function drawRectangle(latLng, map) {
             break;
         case 5:
             // LatLngBounds(sw, ne)
-            var reccBounds = new google.maps.LatLngBounds(
+            var soraBounds = new google.maps.LatLngBounds(
                 new google.maps.LatLng(34.239300, -118.525200),
                 new google.maps.LatLng(34.240680, -118.524650)
             );
             // create rectangle
-            reccenter = new google.maps.Rectangle({
+            soraya= new google.maps.Rectangle({
                 strokeOpacity: 0.8,
                 strokeWeight: 2,
                 fillOpacity: 0.1,
                 map: map,
-                bounds: reccBounds
+                bounds: soraBounds
             });
             // if we click on the correct building, green rectangle
-            if (reccBounds.contains(latLng)) {
-                reccenter.setOptions({
+            if (soraBounds.contains(latLng)) {
+                soraya.setOptions({
                     strokeColor: "#008000",
                     fillColor: "#008000"    
                 });
@@ -218,7 +218,7 @@ function drawRectangle(latLng, map) {
                 showRightWrong(5, true);
             }
             else { // wrong building, red rectangle
-                reccenter.setOptions({
+                soraya.setOptions({
                     strokeColor: "#FF0000",
                     fillColor: "#FF0000"
                 });
