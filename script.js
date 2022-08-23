@@ -103,7 +103,7 @@ function drawRectangle(latLng, map) {
                 map: map,
                 bounds: chapBounds
             });
-            // if we click on the correct building, green rectangle
+            // correct building, green rectangle
             if (chapBounds.contains(latLng)) {
                 chaparral.setOptions({
                     strokeColor: "#008000",
